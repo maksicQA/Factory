@@ -7,10 +7,9 @@ package main.factory;
 
 /**
  *
- * @author qa
+ * @author Nenad
  */
-public class Car {
-    
+ public class Car {
     String model;
     int buildYear;
     int maxSpeed;
@@ -19,6 +18,5 @@ public class Car {
     int currentFuel;
     int consumption;
     
-    
-    
-}
+}   
+

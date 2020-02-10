@@ -28,6 +28,34 @@ public class Main {
         fiat.maxFuel = 45;
         
         System.out.println("Model: "+ fiat.model);
+        System.out.println("Build Year: "+ fiat.buildYear);
+        System.out.println("Color: "+ fiat.color);
+        System.out.println("Consumption: "+ fiat.consumption);
+        System.out.println("Max Speed: "+ fiat.maxSpeed);
+        System.out.println("Current Fuel: "+ fiat.currentFuel);
+        System.out.println("Max Fuel: "+ fiat.maxFuel);
+        
+        System.out.println("");
+        
+        Car ford = new Car(); 
+        ford.model = "Mustang GT";
+        ford.buildYear = 2016;
+        ford.color = "Black with red stripes";
+        ford.consumption = 20;
+        ford.maxSpeed = 280;
+        ford.currentFuel = 50;
+        ford.maxFuel = 100;
+        
+        System.out.println("Model: "+ ford.model);
+        System.out.println("Build Year: "+ ford.buildYear);
+        System.out.println("Color: "+ ford.color);
+        System.out.println("Consumption: "+ ford.consumption);
+        System.out.println("Max Speed: "+ ford.maxSpeed);
+        System.out.println("Current Fuel: "+ ford.currentFuel);
+        System.out.println("Max Fuel: "+ ford.maxFuel);
+               
+        
+        
                 
     }
     
