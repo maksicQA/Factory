@@ -18,41 +18,39 @@ public class Main {
         
         System.out.println("Pocetak");
        
-        Car fiat = new Car();
-        fiat.model = "Fiat Punto";
-        fiat.buildYear = 2010;
-        fiat.color = "black";
-        fiat.consumption = 6;
-        fiat.maxSpeed = 180;
-        fiat.currentFuel = 20;
-        fiat.maxFuel = 45;
+//        Car fiat = new Car();
+//        fiat.model = "Fiat Punto";
+
+//      Car fiat = new Car("Fiat Punto", "2010". "Black", 6, 20, 45);
+
+        Car fiat = new Car("Fiat Punto", 2010, 180, "Black", 45);
+                
+//        fiat.setModel("Fiat Punto");
+//        fiat.setBuildYear(2010);
+//        fiat.setColor("black");
+//        fiat.setConsumption(6);
+//        fiat.setMaxSpeed(180);
+//        fiat.setCurrentFuel(20);
+//        fiat.setConsumption(45);
+               
+        fiat.showData();
         
-        System.out.println("Model: "+ fiat.model);
-        System.out.println("Build Year: "+ fiat.buildYear);
-        System.out.println("Color: "+ fiat.color);
-        System.out.println("Consumption: "+ fiat.consumption);
-        System.out.println("Max Speed: "+ fiat.maxSpeed);
-        System.out.println("Current Fuel: "+ fiat.currentFuel);
-        System.out.println("Max Fuel: "+ fiat.maxFuel);
+//        System.out.println("");
         
-        System.out.println("");
+        Car ford = new Car("Ford Mustang GT", 2016, 310, "Black with red Stripes", 100, 20, 18);
         
-        Car ford = new Car(); 
-        ford.model = "Mustang GT";
-        ford.buildYear = 2016;
-        ford.color = "Black with red stripes";
-        ford.consumption = 20;
-        ford.maxSpeed = 280;
-        ford.currentFuel = 50;
-        ford.maxFuel = 100;
         
-        System.out.println("Model: "+ ford.model);
-        System.out.println("Build Year: "+ ford.buildYear);
-        System.out.println("Color: "+ ford.color);
-        System.out.println("Consumption: "+ ford.consumption);
-        System.out.println("Max Speed: "+ ford.maxSpeed);
-        System.out.println("Current Fuel: "+ ford.currentFuel);
-        System.out.println("Max Fuel: "+ ford.maxFuel);
+//        ford.model = "Mustang GT";
+//        ford.setModel("Mustang GT");
+//        ford.setBuildYear(2016);
+//        ford.setColor("Black with red stripes");
+//        ford.setConsumption(20);
+//        ford.setMaxSpeed(280);
+//        ford.setCurrentFuel(50);
+//        ford.setMaxFuel(100);
+//        
+        ford.showData();
+       
                
         
         
