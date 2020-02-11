@@ -118,7 +118,19 @@ package main.factory;
         System.out.println("Potrosnja: " + this.getConsumption());
         System.out.println("Stanje rezervoara: " + this.getCurrentFuel());
         System.out.println("Kapacitet rezervoara: " + this.getMaxFuel ()); 
-        System.out.println("");
+        System.out.println("");       
+    }
+    
+    public void travel(int distanceTraveled) {
+        // kolicina goriva da se smanji za kolicinu potrosenog
+        // kilometraza treba da se uveca
+        // za domaci napraviti atribut kilometraza {mileage} 1.
+        // get i set metode za njega
+        // prosiriti jedan od konstruktora sa navedenim atributom
+        
+        
+        // atribut za stanje motor, on ^ off
+        
         
     }
 
